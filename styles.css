@@ -1,0 +1,94 @@
+/* common styles */
+body{
+    font-size: 1.5rem;
+    font-family: "Audiowide", sans-serif;
+    background-color:lightgray;
+;
+}
+input , button{
+    display:flex;
+}
+
+input,textarea{
+    font-size: 1.1rem;
+    line-height: 2;
+    border-color: #393E4640;
+    background-color: #f6f6f6;
+}
+
+/* input{
+    position:relative;
+    left:10rem;
+    bottom: 2.5rem;
+} */
+h1{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    font-size: 5.5rem;
+    color:#393E46;
+}
+
+label{
+    padding-top: 1.5rem;
+    color: #cc00cc;
+    font-family: "Audiowide", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button:first-child{
+    margin-top: 3rem;
+}
+
+.content{
+    padding: 3rem 3rem;
+}
+
+.btn1{
+    font-size: 1.5rem;
+
+}
+
+.btn {
+    font-size: 1.5rem;
+    color:  #cc00cc;
+    font-family: "Audiowide", sans-serif;
+}
+
+.column{
+    width: 32%;
+    min-width: 400px;
+}
+
+
+/* Styles that specific to listing page */
+.listing-form{
+    width: 80%;
+}
+
+.listing-page-title{
+    font-size: 2.5rem;
+    color: #cc00cc;
+    text-align: center;
+
+
+}
+
+.listing-id-price{
+    width: 25%!important;
+}
+
+.listing-button{
+    margin-top: 2%;
+}
+
+.listing-button .btn{
+    margin-top: 0;
+}
+.imgx{
+    padding: 20px;
+}

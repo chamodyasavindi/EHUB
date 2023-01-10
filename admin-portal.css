@@ -1,0 +1,94 @@
+body{
+    font-family: "Audiowide", sans-serif;
+    background-color:lightgray;
+    
+}
+
+
+.card{
+    background-color:#ffffff;
+
+}
+.admin-portal-heading{
+    font-weight:500;
+}
+
+.portal-icon{
+    font-size: 10rem;
+    margin: 25% 10%;
+    color: #575757;
+}
+
+.view-order-heading{
+    padding-bottom: 15%;
+}
+
+.portal-card-title{
+    color: #575757;
+}
+
+.card:hover{
+    transition-duration: 120ms;
+    background-color:rgb(46, 129, 132);
+    width: 102%;
+    height: 97%;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #fa5f16;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+@media (max-width:990px) {
+    .card:hover{
+        width: 101%;
+        height: 99%;
+    }
+}
